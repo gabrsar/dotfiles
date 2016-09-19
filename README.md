@@ -1,5 +1,5 @@
-My Dot Files 
-=====
-Vim
+# Dot Files
+=========
+These are my . files. Here I will keep my favorite configurations
 
-i3
+Look inside each folder for respective README.md :)
