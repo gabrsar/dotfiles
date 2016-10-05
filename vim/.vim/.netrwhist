@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/X11/xorg.conf.d'
+let g:netrw_dirhist_2='/home/gabriel/.config'
+let g:netrw_dirhist_3='/home/gabriel/.local/share/omf'
+let g:netrw_dirhist_4='/home/gabriel/.local/share/omf/themes'
+let g:netrw_dirhist_5='/home/gabriel/.local/share/omf'
+let g:netrw_dirhist_6='/home/gabriel/.local/share/omf/themes'
+let g:netrw_dirhist_7='/home/gabriel/forgottenserver/build'
+let g:netrw_dirhist_8='/home/gabriel/astronomy'
+let g:netrw_dirhist_9='/home/gabriel/.vim'
