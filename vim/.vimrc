@@ -14,6 +14,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tomasr/molokai'
 Plugin 'whatyouhide/vim-gotham'
 Plugin 'valloric/youcompleteme'
+Plugin 'jelera/vim-javascript-syntax'
 call vundle#end() " required
 filetype plugin indent on " required
 
