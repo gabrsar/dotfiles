@@ -30,6 +30,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 set background=dark
 set nocompatible
+colorscheme gotham256
 
 "------ GUI Options --------------------"
 
@@ -61,7 +62,6 @@ set shortmess=atI " shorten messages and don't show intro
 set wildmenu " turn on wild menu :e <Tab>
 set wildmode=list:longest " set wildmenu to list choice
 
-colorscheme 
 "------ Text editing and searching behavior ------"
 
 set nohlsearch " turn off highlighting for searched expressions
