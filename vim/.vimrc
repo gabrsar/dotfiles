@@ -42,8 +42,6 @@ set guioptions-=L "remove left-hand scroll bar
 "------ Console UI & Text display ------"
 
 syntax enable
-set textwidth=0 wrapmargin=0 " Disable line wrapping physical 
-set wrap " Apenas desenha a linha na linha de baixo caso ultrapasse o limite
 set cul " highlight current line
 hi CursorLine term=none cterm=none ctermbg=DarkGrey
 set cmdheight=1 " explicitly set the height of the command line
@@ -72,7 +70,6 @@ set smartcase " unless there's a capital letter
 set completeopt=menu,longest,preview " more autocomplete <Ctrl>-P options
 set nostartofline " leave my cursor position alone!
 set backspace=2 " equiv to :set backspace=indent,eol,start
-set textwidth=120 " we like 80 columns
 set showmatch " show matching brackets
 
 "------ Indents and tabs ------"
