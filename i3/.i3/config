@@ -126,7 +126,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Vai fechar a porra do i3 seu viado. Certeza?' -b 'Yes, exit i3' 'i3-msg exit'"
 
 mode "resize" {
 	bindsym h resize shrink width 10 px or 10 ppt
@@ -150,7 +150,7 @@ bindsym $mod+r mode "resize"
 
 bar {
 	position	top
-	status_command i3blocks -c ~/.i3/i3blocks/i3blocks.conf
+	status_command bumblebee-status -m cpu memory battery pasink layout-xkb traffic  pacman date time bluetooth -t solarized-powerline
 }
 client.focused #6c71c4 #6c71c4 #fdf6e3 #6c71c4
 client.focused_inactive #073642 #073642 #eee8d5 #6c71c4
@@ -168,12 +168,13 @@ bindsym $mod+Control+l exec i3lock -f -e -c 000000
 bindsym XF86HomePage exec mplayer ~/Gabriel/sounds/tuglife.mp3 -ss 9
 bindsym XF86Mail exec mplayer ~/Gabriel/sounds/xgh.mp3
 bindsym XF86Documents exec mplayer ~/Gabriel/sounds/iphone.mp3
-bindsym XF86Favorites exec mplayer ~/Gabriel/sounds/tumdum.mp3
+bindsym XF86Favorites exec fixkb
 bindsym XF86AudioPlay exec killall mplayer
 
 workspace_auto_back_and_forth yes
 
-exec wallchanger
+exec wallchanger /home/biel/gabriel/wallpapers 30
 exec slack
 exec spotify
 exec nm-applet
+exec xmodmap ~/.xmodmap
