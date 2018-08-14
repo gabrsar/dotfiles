@@ -150,7 +150,7 @@ bindsym $mod+r mode "resize"
 
 bar {
 	position	top
-	status_command bumblebee-status -m cpu memory battery pasink layout-xkb traffic  pacman date time bluetooth -t solarized-powerline
+	status_command bumblebee-status -m memory battery pasink layout-xkb date time bluetooth 
 }
 client.focused #6c71c4 #6c71c4 #fdf6e3 #6c71c4
 client.focused_inactive #073642 #073642 #eee8d5 #6c71c4
@@ -169,7 +169,8 @@ bindsym XF86HomePage exec mplayer ~/Gabriel/sounds/tuglife.mp3 -ss 9
 bindsym XF86Mail exec mplayer ~/Gabriel/sounds/xgh.mp3
 bindsym XF86Documents exec mplayer ~/Gabriel/sounds/iphone.mp3
 bindsym XF86Favorites exec fixkb
-bindsym XF86AudioPlay exec killall mplayer
+bindsym Print exec gnome-screenshot
+bindsym $mod+Print exec gnome-screenshot -i
 
 workspace_auto_back_and_forth yes
 
@@ -177,4 +178,5 @@ exec wallchanger /home/biel/gabriel/wallpapers 30
 exec slack
 exec spotify
 exec nm-applet
+exec stretchly
 exec xmodmap ~/.xmodmap
