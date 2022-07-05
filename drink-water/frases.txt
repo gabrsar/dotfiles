@@ -1,0 +1,19 @@
+audio-card	Vai beber água :)
+audio-input-microphone	Hora de tomar águaaa
+battery	Se não tomar água agora eu desligo o pc
+camera-photo	Aproveita pra tomar uma água
+camera-video	DRINK WATER NOW!
+camera-web	1, 2, 3... TOMA ÁGUAAAAAA
+computer	Ta com sede?
+drive-harddisk	Bebeu água? Não!
+drive-optical	Ta com sede? Tô!
+drive-removable-media	Olha, olha, olha, olha a água mineral
+input-gaming	Toma água com um olho fechado!
+input-keyboard	Toma água com os dois olhos fechados!
+input-mouse	Toma água piscando
+input-tablet	Toma água sem piscar
+media-flash	Conta até 10 e toma um copo de água
+media-floppy	Ok. Dessa vez não precisa tomar água!
+media-optical	NÃO TOME ÁGUA AGORA. sleep 5; Agora tome.
+media-tape	HOOOLD. HOOOOOOLD. HOOLD. DRINK WATERRR!
+modem	:) Já sabe né?

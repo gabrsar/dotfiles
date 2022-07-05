@@ -1,5 +1,7 @@
 #!/bin/bash
-
+set -e
+curl https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh > /tmp/ohmyzsh.sh
+sh /tmp/ohmyzsh.sh
 
 echo "ZSH - Suggestions"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -11,7 +13,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$highlightin
 echo "source $highlight/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc 
 
 
-clear
 
 echo "Close this terminal and open a new one."
 

@@ -1,0 +1,1 @@
+*/20 8-20 * * * notify-send -i /home/gabriel/dotfiles/drink-water/water.jpeg "Drink water now: $(date)"
