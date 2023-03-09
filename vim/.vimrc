@@ -40,6 +40,7 @@ set guioptions-=L "remove left-hand scroll bar
 
 "------ Console UI & Text display ------"
 
+set clipboard=unnamedplus
 syntax enable
 set cul " highlight current line
 hi CursorLine term=none cterm=none ctermbg=DarkGrey
@@ -47,7 +48,7 @@ set cmdheight=1 " explicitly set the height of the command line
 set ve=all
 set showcmd " Show (partial) command in status line.
 set listchars=eol:$,tab:>-,trail:.,
-set rnu " yay line numbers
+set nu " yay line numbers
 set ruler " show current position at bottom
 set noerrorbells " don't whine
 set incsearch
@@ -104,3 +105,5 @@ map <C-S-F> ggVG=''
 
 set laststatus=2
 
+map <C-C> "+y
+map <C-V> "+p
